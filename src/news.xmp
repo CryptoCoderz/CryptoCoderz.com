@@ -1,0 +1,97 @@
+
+	<!-- news section -->
+	<section class="news-section page-section" id="news">
+		<div class="container">
+		
+			<div class="section-title">
+				<h2 class="font-reg">Our latest news</h2>
+			</div>
+			
+			<ul id="news-items" class="row">
+			
+				<!-- news item example 1 -->
+				<li class="col-xlarge-4 col-medium-4 horizon" data-animate-in="opacity:0;duration:750ms;">
+					<a href="single-news-1.html" class="news-item">
+						<img src="assets/img/news_placeholder_1.jpg" alt="" class="image" />
+						<div class="news-item-content font-reg">
+							<h3>News item title</h3>
+							<p class="news-item-date">01 january 2016</p>
+							<p>Vestibulum arcu sem, laoreet quis purus vel, rutrum vestibulum magna. Maecenas ut molestie est. Maecenas molestie risus vel odio placerat suscipit. Duis iaculis tellus vitae ante consequat, at faucibus turpis vestibulum.</p>
+							<p class="news-continue">Continue reading</p>
+						</div>
+					</a>
+				</li>
+				
+				<!-- news item example 2 -->
+				<li class="col-xlarge-4 col-medium-4 horizon" data-animate-in="opacity:0;duration:750ms;">
+					<a href="single-news-1.html" class="news-item">
+						<img src="assets/img/news_placeholder_2.jpg" alt="" class="image" />
+						<div class="news-item-content font-reg">
+							<h3>News item title</h3>
+							<p class="news-item-date">01 january 2016</p>
+							<p>Vestibulum arcu sem, laoreet quis purus vel, rutrum vestibulum magna. Maecenas ut molestie est. Maecenas molestie risus vel odio placerat suscipit. Duis iaculis tellus vitae ante consequat, at faucibus turpis vestibulum.</p>
+							<p class="news-continue">Continue reading</p>
+						</div>
+					</a>
+				</li>
+				
+				<!-- news item example 3 -->
+				<li class="col-xlarge-4 col-medium-4 horizon" data-animate-in="opacity:0;duration:750ms;">
+					<a href="single-news-1.html" class="news-item">
+						<img src="assets/img/news_placeholder_3.jpg" alt="" class="image" />
+						<div class="news-item-content font-reg">
+							<h3>News item title</h3>
+							<p class="news-item-date">01 january 2016</p>
+							<p>Vestibulum arcu sem, laoreet quis purus vel, rutrum vestibulum magna. Maecenas ut molestie est. Maecenas molestie risus vel odio placerat suscipit. Duis iaculis tellus vitae ante consequat, at faucibus turpis vestibulum.</p>
+							<p class="news-continue">Continue reading</p>
+						</div>
+					</a>
+				</li>
+				
+				<!-- news item example 4 -->
+				<li class="col-xlarge-4 col-medium-4 horizon" data-animate-in="opacity:0;duration:750ms;">
+					<a href="single-news-1.html" class="news-item">
+						<img src="assets/img/news_placeholder_4.jpg" alt="" class="image" />
+						<div class="news-item-content font-reg">
+							<h3>News item title</h3>
+							<p class="news-item-date">01 january 2016</p>
+							<p>Vestibulum arcu sem, laoreet quis purus vel, rutrum vestibulum magna. Maecenas ut molestie est. Maecenas molestie risus vel odio placerat suscipit. Duis iaculis tellus vitae ante consequat, at faucibus turpis vestibulum.</p>
+							<p class="news-continue">Continue reading</p>
+						</div>
+					</a>
+				</li>
+				
+				<!-- news item example 5 -->
+				<li class="col-xlarge-4 col-medium-4 horizon" data-animate-in="opacity:0;duration:750ms;">
+					<a href="single-news-1.html" class="news-item">
+						<img src="assets/img/news_placeholder_5.jpg" alt="" class="image" />
+						<div class="news-item-content font-reg">
+							<h3>News item title</h3>
+							<p class="news-item-date">01 january 2016</p>
+							<p>Vestibulum arcu sem, laoreet quis purus vel, rutrum vestibulum magna. Maecenas ut molestie est. Maecenas molestie risus vel odio placerat suscipit. Duis iaculis tellus vitae ante consequat, at faucibus turpis vestibulum.</p>
+							<p class="news-continue">Continue reading</p>
+						</div>
+					</a>
+				</li>
+				
+				<!-- news item example 6 -->
+				<li class="col-xlarge-4 col-medium-4 horizon" data-animate-in="opacity:0;duration:750ms;">
+					<a href="single-news-1.html" class="news-item">
+						<img src="assets/img/news_placeholder_6.jpg" alt="" class="image" />
+						<div class="news-item-content font-reg">
+							<h3>News item title</h3>
+							<p class="news-item-date">01 january 2016</p>
+							<p>Vestibulum arcu sem, laoreet quis purus vel, rutrum vestibulum magna. Maecenas ut molestie est. Maecenas molestie risus vel odio placerat suscipit. Duis iaculis tellus vitae ante consequat, at faucibus turpis vestibulum.</p>
+							<p class="news-continue">Continue reading</p>
+						</div>
+					</a>
+				</li>
+	
+			</ul>
+			
+			<div id="view-all-posts">
+				<a href="news-1.html" class="primary-button font-reg hov-bk">View all posts</a>
+			</div>
+
+		</div>
+	</section>

@@ -1,0 +1,198 @@
+/* --------------
+
+Theme name: Origin
+Author: Jacob Worrell
+Version: 1.0
+Last change: 08/30/2016
+
+-------------- */
+
+
+/* ------- RESPONSIVE CSS CONTENTS ------- 
+
+	- 1) Small Desktop and Tablet Landscape (992px - 1099px)
+	
+	- 2) Mobile + Tablet (991px and below)
+	
+	- 3) Tablet only (768px - 991px)
+	
+	- 4) Mobile only (767px and below)
+	
+ ------------------------------------ */
+
+
+
+/* --- 1) Small Desktop and Tablet Landscape --- */
+@media (min-width:992px) and (max-width:1099px) {
+
+	/* -- header -- */
+	
+	.menu .menu-item > a{margin:0 9px;}
+	
+}
+
+
+
+/* --- 2) mobile + tablet styles --- */
+@media (max-width: 991px) {
+
+	/* -- HEADER -- */
+
+		.header-main{height:auto;}
+		#main-content{padding-top:62px !important;}
+		
+		#site-logo{background-image:url('../img/origin_logo.png');margin-top:21px;}
+		.header-home .menu{margin-top:0;}
+	
+		/* -- nav drop down button -- */
+		
+		#mobile-nav-button{width:25px;height:24px;float:right;margin:22px 0 16px 0;}
+
+		#mobile-nav-icon {width:100%;height:100%;position:relative;cursor:pointer;-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;}
+		#mobile-nav-icon span {display:block;position:absolute;height:2px;width:100%;background-color:#3366ff;border-radius:6px;opacity:1;left:0;border-radius:2px;-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.25s ease-in-out;transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;-o-transition:.25s ease-in-out;}
+		#mobile-nav-icon span:nth-child(1){top:0;}
+		#mobile-nav-icon span:nth-child(2),#mobile-nav-icon span:nth-child(3){top:8px;}
+		#mobile-nav-icon span:nth-child(4){top:16px;}
+
+		#mobile-nav-button.active{margin-right:15px;}
+		#mobile-nav-button.active #mobile-nav-icon span:nth-child(1),#mobile-nav-button.active #mobile-nav-icon span:nth-child(4){top:10px;width:0;left:50%}
+		#mobile-nav-button.active #mobile-nav-icon span:nth-child(2){-webkit-transform:rotate(45deg);transform:rotate(45deg);-moz-transition:rotate(45deg);-o-transition:rotate(45deg);}
+		#mobile-nav-button.active #mobile-nav-icon span:nth-child(3){-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-moz-transition:rotate(-45deg);-o-transition:rotate(-45deg);}
+
+		
+		/* -- main menu drop down -- */
+		
+		#header-nav{margin-top:0px;width:100%;text-align:center;display:none;}
+		.menu li{width:100%;float:left;margin:0;border-bottom:none;}
+		.menu li:last-child{margin-right:0px;}
+		#header-nav .menu-item > a{letter-spacing:1px;float:none;display:block;padding:14px 0;color:#ffffff!important;margin-left:0;margin-right:0;text-align:left;padding-left:15px;border-bottom:1px solid #333333;}
+		.menu > li > a:hover, .menu > .current-menu-item > a,.submenu-active{border-bottom:none;background:none;background-image:none;}
+
+		
+		/* -- sub menu drop down -- */
+		
+		.menu-item .sub-drop-icon{display:none;}
+		.menu-item-has-children .sub-drop-icon{font-size:26px;position:absolute;right:18px;top:12px;color:#9A9A9A;display:block;}
+		.menu .sub-menu{background-color:#222222;position:static;width:auto;display:none;padding:0 15px;box-shadow:0px 0px 0px 0px;}
+		.menu li:last-child .sub-menu li:last-child{border:0;}
+		.menu .sub-menu li{padding:0}
+		.menu .sub-menu li a{color:#ffffff!important;text-transform: uppercase;padding:14px 0 14px 15px;border-bottom:1px solid #333333;}
+		.menu .sub-menu:after {content:'';display: block;font-size:0;height:0;clear:both;}
+		
+		.menu .sub-menu .sub-drop-icon{top:8px;}
+	
+	
+		/* -- mobile sidebar menu -- */
+		
+		#header-nav{position: fixed;z-index: 1000;height: 100%;width:65%;top: 0;background-color: #222222;overflow:auto;display:block;right:-1000px;-moz-transition: all, 0.5s, ease-in-out;-webkit-transition: all, 0.5s, ease-in-out;transition: all, 0.5s, ease-in-out;}
+		#header-nav.menu-active{right:0!important;}
+		
+		#main-content,.medium-header-container,footer{transform:translate(0);-moz-transition: transform, 0.5s, ease-in-out;-webkit-transition: all, 0.5s, ease-in-out;transition: all, 0.5s, ease-in-out;}
+		
+		
+	
+	/* -- footer -- */
+	
+	#newsletter-form .primary-button{padding:10px 0 9px}
+	.newsletter-input{font-size:16px;}
+	
+	
+	/* -- page header -- */
+	
+	.page-header{min-height:200px;}
+	
+	
+	/* -- post sidebar -- */
+	
+	.left-sidebar,.right-sidebar{padding:0 15px;}
+	
+	
+	/* -- one page template main -- */	
+			
+		/* -- home-section -- */
+		
+		.home-slide{min-height:450px;}
+		.home-slide img{min-height:450px;}
+		
+		#home-slideshow .owl-dots{display:none!important;}
+		.home-slide-content .content-top{font-size: 29px;line-height: 34px;letter-spacing: 5px;margin-bottom: 15px;}
+		.home-slide-content .content-bottom{font-size: 14px;line-height: 19px;letter-spacing: 1px;margin-bottom: 20px;}
+		
+			
+		/* -- pricing section -- */
+		
+		.pricing-item{margin-bottom:30px;}
+		#pricing-items li:last-child .pricing-item{margin-bottom:0;}
+		
+		/* -- contact section -- */
+		
+		.contact-input,.contact-text{font-size:16px;}
+
+}
+
+
+
+/* --- 3) tablet only --- */
+@media (min-width:768px) and (max-width: 991px) {
+
+	/* -- header -- */
+	
+	#header-nav{width:275px;}
+	
+}
+
+
+
+/* --- 4) mobile only --- */
+@media (max-width:767px) {
+	
+
+	/* -- footer -- */
+	
+	#newsletter-form{width:80%;}
+	#scroll-top{position:static;display:inline-block!important;margin-top:40px;}
+	
+	
+	/* -- post stuff -- */
+	
+	.post-nav-item p{font-size:12px;line-height:14px;margin-bottom:0;}
+	
+	
+	/* -- post sidebar -- */
+	
+	.post-sidebar .sidebar-widget:first-child{margin-top:60px;}
+	
+	
+	/* -- one page template main -- */
+	
+		/* -- home-section -- */
+		
+		.home-slide-content{width:80%;}
+		.home-slide-content a{padding:9px 20px;}
+		.home-slide img{width:100%;display:block;height:100%;width:115%!important;position:absolute;top:50%;left:0;right:0;margin-left: uto;margin-right:auto;transform:translateY(-50%);-webkit-transform:translateY(-50%);}
+		.previous-slide-btn, .next-slide-btn{display:none;}
+	
+	
+		/* -- services section -- */
+		
+		.service-item{padding:50px 30px;}
+	
+	
+		/* -- contact section -- */
+	
+		.contact-section-right{margin-top:60px;}
+		
+	
+	/* -- news list page -- */
+	
+		/* -- style 3 -- */
+		
+		.news-style-3 li .news-item{margin-top:40px!important;}
+		.news-style-3 li:first-child .news-item{margin-top:0!important;}
+	
+	
+	/* -- single portfolio -- */
+	
+	.detail-heading{margin-top:60px;}
+
+}

@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- page title -->
+<title>CryptoCoderz - Gram</title>
+<!-- theme css --> 
+<link href="assets/css/structure.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+<!-- author -->
+<meta name="author" content="CryptoCoderz">
+<link rel="shortcut icon" type="image" href="assets/img/cryptocoderz_logo_gearchain_only.ico">
+
+<!-- responsive meta tag -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+
+<!-- google font used -->
+<link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
+<!-- carousel css -->
+<link href="assets/js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- header -->
+<header>
+
+	<div class="header-main header-fixed">
+		<div class="container clearfix">
+		
+			<div class="medium-header-container">
+				<a href="index.html" id="site-logo"></a>
+				<div id="mobile-nav-button" class="hidden-desk hidden-tab">
+					<div id="mobile-nav-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		
+			<!-- header nav menu -->
+			<nav id="header-nav">
+			
+				<ul id="nav-ul" class="menu font-reg clearfix">
+					<li class="menu-item"><a href="index.html#home">home</a></li>
+					
+					<li class="menu-item menu-item-has-children">
+						<a class="nav-link">Blockchains<span class="sub-drop-icon fa fa-angle-down"></span></a>
+						<ul class="sub-menu sub-menu-first">
+
+							<li><a href="020london.html">020London</a></li>
+
+							<li><a href="binary.html">Binary</a></li>
+
+							<li><a href="hiro.html">Hiro</a></li>
+
+							<li><a href="gram.html">Gram</a></li>
+
+							<li><a href="espers.html">Espers</a></li>
+
+							<li><a href="insane.html">INSaNE</a></li>
+							
+						</ul>
+					</li>
+					
+					<li class="menu-item"><a href="index.html#about">about</a></li>
+					<li class="menu-item"><a href="index.html#services">services</a></li>
+					<li class="menu-item"><a href="index.html#pricing">pricing</a></li>
+					<li class="menu-item"><a href="index.html#news">news</a></li>
+					<li class="menu-item"><a href="index.html#contact">contact</a></li>
+					
+				</ul>
+			
+			</nav>
+	
+		</div>
+	</div>
+	
+</header>
+
+
+<div id="main-content">
+	
+	<!-- page head section -->
+	<section class="page-header" style="background-image:url('assets/img/testimonial_bk.jpg');">
+		<div class="page-head-inside">
+			<div class="container">
+				<h1 class="font-reg">Gram</h1>
+				<p class="font-reg">Our official internal use testing Blockchain.</p>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- page content -->
+	<div class="page-section single-portfolio">
+		
+		<!-- portfolio single details -->
+		<section class="portfolio-details">
+			<div class="container">
+			
+				<div class="row">
+				
+					<!-- project description -->
+					<div class="col-xlarge-8 col-medium-8">
+						<h2 class="font-reg">Project Description</h2>
+						<div class="page-content">
+							<p>Gram is our official internal use testing Blockchain. The original dev abandoned the coin and the entire community. This caused the community to die as well, leading to not even a single node for an extended period of time. Nobody even had a functional wallet by the time CryptoCoderz got involved. We were forced to re-block the entire algorithm and start it from scratch. Currently we are using this Blockchain to test SHA-256 functionalities and other future projects. Due to the coin being our private test chain there is currently no Bitcointalk thread, nor a wallet.</p>
+
+							<h3>No Wallet?</h3>
+							<p>The reason as to why we haven’t made a new wallet for gram available to the public is because we do not want this project to gain monetary value. CryptoCoderz took something dead and replaced it with a test to both preserve and utilize this Blockchain. Due to the state in which we found Gram we believe it will do better as a test rather than a functional technology.</p>
+
+							<h3>Why SHA-256</h3>
+							<p>the reason we chose Gram in particular to be our inside testing Blockchain is because of the algorithm SHA-256. We do not believe that SHA-256 is secure enough to be a functional Blockchain for what CryptoCoderz has planned however it is a great test to help us develop Implementation of several types of algorithms into one universal system. CryptoCoderz views this as a long term goal and will be working on perfecting this function over the course of an undisclosed amount of time.</p>
+
+							<h3>Algorithm</h3>
+							<p>The SHA (Secure Hash Algorithm) is one of a number of cryptographic hash functions. A cryptographic hash is like a signature for a text or a data file. SHA-256 algorithm generates an almost-unique, fixed size 256-bit (32-byte) hash. Hash is a one way function – it cannot be decrypted back.</p>
+							<section class="map-section">
+	
+		<div class="view-map-section">
+			<div class="container">
+				<p style="color: white;" class="view-site primary-button font-reg hov-bk">Veiw hashblock.h<i class="fa fa-arrow-circle-o-down"></i></p>
+			</div>
+		</div>
+		
+		<div id="contact-map-container" style="padding-left: 20%">
+		<br><br>
+		<div style="height:300px;width:700px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+		<code>
+<br>		template<typename T1>
+<br>inline uint256 Hash(const T1 pbegin, const T1 pend)
+<br>{
+<br>    static unsigned char pblank[1];
+<br>    uint256 hash1;
+<br>    SHA256((pbegin == pend ? pblank : (unsigned char*)&pbegin[0]), (pend - pbegin) * sizeof(pbegin[0]), (unsigned char*)&hash1);
+<br>    uint256 hash2;
+<br>    SHA256((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
+<br>    return hash2;
+<br>}
+<br>
+<br>class CHashWriter
+<br>{
+<br>private:
+<br>    SHA256_CTX ctx;
+<br>
+<br>public:
+<br>    int nType;
+<br>    int nVersion;
+<br>
+<br>    void Init() {
+<br>        SHA256_Init(&ctx);
+<br>    }
+<br>
+<br>    CHashWriter(int nTypeIn, int nVersionIn) : nType(nTypeIn), nVersion(nVersionIn) {
+<br>        Init();
+<br>    }
+<br>
+<br>    CHashWriter& write(const char *pch, size_t size) {
+<br>        SHA256_Update(&ctx, pch, size);
+<br>        return (*this);
+<br>    }
+<br>
+<br>    // invalidates the object
+<br>    uint256 GetHash() {
+<br>        uint256 hash1;
+<br>        SHA256_Final((unsigned char*)&hash1, &ctx);
+<br>        uint256 hash2;
+<br>        SHA256((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
+<br>        return hash2;
+<br>    }
+<br>
+<br>    template<typename T>
+<br>    CHashWriter& operator<<(const T& obj) {
+<br>        // Serialize to this stream
+<br>        ::Serialize(*this, obj, nType, nVersion);
+<br>        return (*this);
+<br>    }
+<br>};
+<br>
+<br>
+<br>template<typename T1, typename T2>
+<br>inline uint256 Hash(const T1 p1begin, const T1 p1end,
+<br>                    const T2 p2begin, const T2 p2end)
+<br>{
+<br>    static unsigned char pblank[1];
+<br>    uint256 hash1;
+<br>    SHA256_CTX ctx;
+<br>    SHA256_Init(&ctx);
+<br>    SHA256_Update(&ctx, (p1begin == p1end ? pblank : (unsigned char*)&p1begin[0]), (p1end - p1begin) * sizeof(p1begin[0]));
+<br>    SHA256_Update(&ctx, (p2begin == p2end ? pblank : (unsigned char*)&p2begin[0]), (p2end - p2begin) * sizeof(p2begin[0]));
+<br>    SHA256_Final((unsigned char*)&hash1, &ctx);
+<br>    uint256 hash2;
+<br>    SHA256((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
+<br>    return hash2;
+<br>}
+<br>
+<br>template<typename T1, typename T2, typename T3>
+<br>inline uint256 Hash(const T1 p1begin, const T1 p1end,
+<br>                    const T2 p2begin, const T2 p2end,
+<br>                    const T3 p3begin, const T3 p3end)
+<br>{
+<br>    static unsigned char pblank[1];
+<br>    uint256 hash1;
+<br>    SHA256_CTX ctx;
+<br>    SHA256_Init(&ctx);
+<br>    SHA256_Update(&ctx, (p1begin == p1end ? pblank : (unsigned char*)&p1begin[0]), (p1end - p1begin) * sizeof(p1begin[0]));
+<br>    SHA256_Update(&ctx, (p2begin == p2end ? pblank : (unsigned char*)&p2begin[0]), (p2end - p2begin) * sizeof(p2begin[0]));
+<br>    SHA256_Update(&ctx, (p3begin == p3end ? pblank : (unsigned char*)&p3begin[0]), (p3end - p3begin) * sizeof(p3begin[0]));
+<br>    SHA256_Final((unsigned char*)&hash1, &ctx);
+<br>    uint256 hash2;
+<br>    SHA256((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
+<br>    return hash2;
+<br>}
+<br>
+<br>template<typename T>
+<br>uint256 SerializeHash(const T& obj, int nType=SER_GETHASH, int nVersion=PROTOCOL_VERSION)
+<br>{
+<br>    CHashWriter ss(nType, nVersion);
+<br>    ss << obj;
+<br>    return ss.GetHash();
+<br>}
+<br>
+<br>template<typename T1>
+<br>inline uint160 Hash160(const T1 pbegin, const T1 pend)
+<br>{
+<br>    static unsigned char pblank[1];
+<br>    uint256 hash1;
+<br>    SHA256((pbegin == pend ? pblank : (unsigned char*)&pbegin[0]), (pend - pbegin) * sizeof(pbegin[0]), (unsigned char*)&hash1);
+<br>    uint160 hash2;
+<br>    RIPEMD160((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
+<br>    return hash2;
+<br>}
+<br>
+<br>inline uint160 Hash160(const std::vector<unsigned char>& vch)
+<br>{
+<br>    return Hash160(vch.begin(), vch.end());
+<br>}
+<br>
+<br>unsigned int MurmurHash3(unsigned int nHashSeed, const std::vector<unsigned char>& vDataToHash);        
+    	</code>
+        </div>
+		</div>
+		
+	</section>
+							<div class="col-xlarge-3 col-medium-6 horizon">
+								<h3>Utilities</h3>
+								<ul>
+									<li><a href="https://github.com/gramcoin/gramcoin">Git Hub</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					
+					<!-- project details -->
+					<div class="col-xlarge-4 col-medium-4">
+						<h2 class="font-reg detail-heading">Project Specs</h2>
+						<ul id="project-details" class="font-reg">
+							<li><span>Abbreviation:</span>GRAM</li>
+							<li><span>Algorithm:</span>SHA-256</li>
+							<li><span>Max Coins:</span>65,360,000</li>
+							<li><span>Block Time:</span>120 Seconds</li>
+							<li><span>Difficulty Retarget Time:</span>Dark Gravity Wave</li>
+							<li><span>Premine:</span>3%</li>
+							<li><span>Starting difficulty:</span>UNK</li>
+							<li><span>Ports:</span>RPC - 7566, P2P - 7567</li>
+							<li><span>Coins Per Block:</span>220</li>
+							<li><span>Date Founded:</span>April 22, 2015</li>
+							<li><span>Date of Rebrand:</span>January 28, 2016</li>
+							<li><span>Current Developer:</span>CryptoCoderz</li>
+						</ul>
+					</div>
+					
+				</div>
+			
+			</div>
+		</section>
+		
+		
+		<!-- post navigation -->
+		<section class="post-navigation">
+			<div class="container">
+				<div id="post-nav-main" class="clearfix">
+					<a href="hiro.html" id="post-nav-prev" class="post-nav-item">
+						<p class="font-reg">Previous Project</p>
+						<h3 class="font-reg hidden-small">Hiro</h3>
+					</a>
+					<a href="espers.html" id="post-nav-next" class="post-nav-item">
+						<p class="font-reg">Next Project</p>
+						<h3 class="font-reg hidden-small">Espers</h3>
+					</a>
+				</div>
+			</div>
+		</section>
+
+	
+		<!-- related portfolio items -->
+		<section class="portfolio-related">
+			<div class="container">
+			
+				<div class="section-title">
+					<h2 class="font-reg">Related Projects</h2>
+				</div>
+				
+				<ul id="portfolio-items" class="row">
+			
+					<!-- related item example 1 -->
+					<li class="col-xlarge-4 col-medium-4 col-small-6">
+						<a href="espers.html" class="portfolio-item">
+							<img src="assets/img/espers_800x686.png" height="317" alt="" class="image" />
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<h3 class="font-reg">Espers</h3>
+									<p class="font-reg">Blockchain</p>
+								</div>
+							</div>
+							<div class="portfolio-expand">
+								<img src="assets/img/search_icon.png" alt="" />
+							</div>
+						</a>
+					</li>
+					
+					<!-- related item example 2 -->
+					<li class="col-xlarge-4 col-medium-4 col-small-6">
+						<a href="020london.html" class="portfolio-item">
+							<img src="assets/img/020_1000x1000.png" height="317" alt="" class="image" />
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<h3 class="font-reg">020London</h3>
+									<p class="font-reg">Blockchain</p>
+								</div>
+							</div>
+							<div class="portfolio-expand">
+								<img src="assets/img/search_icon.png" alt="" />
+							</div>
+						</a>
+					</li>
+					
+					<!-- related item example 3 -->
+					<li class="col-xlarge-4 col-medium-4 hidden-small">
+						<a href="binary.html" class="portfolio-item">
+							<img src="assets/img/binary_500x500.png" height="317" alt="" class="image" />
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<h3 class="font-reg">Binary</h3>
+									<p class="font-reg">Blockchain</p>
+								</div>
+							</div>
+							<div class="portfolio-expand">
+								<img src="assets/img/search_icon.png" alt="" />
+							</div>
+						</a>
+					</li>
+					
+				</ul>
+			
+			</div>
+		</section>
+		
+	</div>
+
+</div>
+
+
+<!-- footer -->
+<footer>
+	<!-- footer bottom secion -->
+	<div id="footer-bottom">
+		<div class="container">
+		
+			<!-- footer social icons -->
+			<div id="footer-social-icons" class="clearfix">
+				<a href="https://www.facebook.com/CryptoCoderz/" class="social-item hov-bk" target="_blank"><span class="fa fa-facebook"></span></a>
+				<a href="https://twitter.com/CryptoCoderz" class="social-item hov-bk" target="_blank"><span class="fa fa-twitter"></span></a>
+				<a href="https://plus.google.com/115738697538614748094" class="social-item hov-bk" target="_blank"><span class="fa fa-google-plus"></span></a>
+				<a href="https://www.youtube.com/channel/UCKhrxPfUwXpssUE_lkGw85w" class="social-item hov-bk" target="_blank"><span class="fa fa-youtube"></span></a>
+				
+				
+			</div>
+			
+			<!-- copyright text -->
+			<p class="font-reg">© 2015-2017 Cryptocoderz</p>
+			
+			<!-- scroll to top -->
+			<div id="scroll-top">
+				<span class="fa fa-angle-up"></span>
+			</div>
+			
+		</div>
+	</div>
+
+</footer>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/lib/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/konami.js"></script>
+
+</body>
+</html>
