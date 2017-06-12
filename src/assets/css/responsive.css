@@ -119,10 +119,10 @@ Last change: 08/30/2016
 		.home-slide-content .content-bottom{font-size: 14px;line-height: 19px;letter-spacing: 1px;margin-bottom: 20px;}
 		
 			
-		/* -- pricing section -- */
+		/* -- info section -- */
 		
-		.pricing-item{margin-bottom:30px;}
-		#pricing-items li:last-child .pricing-item{margin-bottom:0;}
+		.info-item{margin-bottom:30px;}
+		#info-items li:last-child .info-item{margin-bottom:0;}
 		
 		/* -- contact section -- */
 		

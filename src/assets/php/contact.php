@@ -69,7 +69,7 @@ $okMessage = '<html lang="en">
           <li class="menu-item"><a href="http://cryptocoderz.com/index.html#about">about</a></li>
           <li class="menu-item"><a href="http://cryptocoderz.com/index.html#services">services</a></li>
           <li class="menu-item"><a href="http://cryptocoderz.com/index.html#portfolio">projects</a></li>
-          <li class="menu-item"><a href="http://cryptocoderz.com/index.html#pricing">pricing</a></li>
+          <li class="menu-item"><a href="http://cryptocoderz.com/index.html#info">info</a></li>
           <li class="menu-item"><a href="http://cryptocoderz.com/index.html#testimonials">news</a></li>
           <li class="menu-item"><a href="http://cryptocoderz.com/index.html#contact">contact</a></li>
         </ul>

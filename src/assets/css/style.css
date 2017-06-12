@@ -25,7 +25,7 @@ Last change: 5/17/2017, 8:15:34 PM GMT-7:00 DST
 		- 5.2) about section
 		- 5.3) services section
 		- 5.4) portfolio section
-		- 5.5) pricing section
+		- 5.5) info section
 		- 5.6) news section
 		- 5.7) testimonial section
 		- 5.8) contact section
@@ -307,23 +307,23 @@ Last change: 5/17/2017, 8:15:34 PM GMT-7:00 DST
 	.portfolio-item:hover .portfolio-expand{top:-36px;right:-62px;}
 
 	
-	/* -- 5.5) pricing-section  -- */
+	/* -- 5.5) info-section  -- */
 	
-	.pricing-section{width:100%;}
+	.info-section{width:100%;}
 	
-	.pricing-item{padding:60px 30px;text-align:center;background:linear-gradient(to bottom,rgba(255,255,255,1) 50%,#3366ff 50%);background-size:100% 202%;background-position:top;-moz-transition: all, 0.5s, ease-in-out;-webkit-transition: all, 0.5s, ease-in-out;transition: all, 0.5s, ease-in-out;}
-	.pricing-item i{font-size:40px;color:#3366ff;margin-bottom:40px;}
-	.pricing-item h3{font-size:18px;line-height:21px;letter-spacing:1.5px;text-transform:uppercase;font-weight:400;text-align:center;}
+	.info-item{padding:60px 30px;text-align:center;background:linear-gradient(to bottom,rgba(255,255,255,1) 50%,#3366ff 50%);background-size:100% 202%;background-position:top;-moz-transition: all, 0.5s, ease-in-out;-webkit-transition: all, 0.5s, ease-in-out;transition: all, 0.5s, ease-in-out;}
+	.info-item i{font-size:40px;color:#3366ff;margin-bottom:40px;}
+	.info-item h3{font-size:18px;line-height:21px;letter-spacing:1.5px;text-transform:uppercase;font-weight:400;text-align:center;}
 	.purchase-cost{font-size:13px;color:#3366ff;line-height:18px;letter-spacing:1px;text-transform:uppercase;margin-top:7px;}
 	.purchase-text{font-size:13px;color:#666666;line-height:18px;margin-top:20px;}
-	.pricing-item  ul{text-align:left;list-style:none;margin-top:20px;}
-	.pricing-item  li{font-size:13px;color:#666666;line-height:18px;border-bottom:1px solid #e6eeff;padding:7px 0;}
-	.pricing-item  .primary-button{margin-top:30px;}
+	.info-item  ul{text-align:left;list-style:none;margin-top:20px;}
+	.info-item  li{font-size:13px;color:#666666;line-height:18px;border-bottom:1px solid #e6eeff;padding:7px 0;}
+	.info-item  .primary-button{margin-top:30px;}
 
-	.pricing-item:hover{color:#ffffff;background-position:bottom;}
-	.pricing-item:hover .fa{color:#ffffff!important;-moz-transition: color, 0.8s, ease-in-out;-webkit-transition: color, 0.8s, ease-in-out;transition: color, 0.8s, ease-in-out;}
-	.pricing-item:hover .primary-button{background-color:#ffffff;color:#3366ff;}
-	.pricing-item:hover .purchase-cost,.pricing-item:hover .purchase-text,.pricing-item:hover .pricing-info-list li{color:white!important;-moz-transition: color, 0.6s, ease-in-out;-webkit-transition: color, 0.6s, ease-in-out;transition: color, 0.6s, ease-in-out;}
+	.info-item:hover{color:#ffffff;background-position:bottom;}
+	.info-item:hover .fa{color:#ffffff!important;-moz-transition: color, 0.8s, ease-in-out;-webkit-transition: color, 0.8s, ease-in-out;transition: color, 0.8s, ease-in-out;}
+	.info-item:hover .primary-button{background-color:#ffffff;color:#3366ff;}
+	.info-item:hover .purchase-cost,.info-item:hover .purchase-text,.info-item:hover .info-info-list li{color:white!important;-moz-transition: color, 0.6s, ease-in-out;-webkit-transition: color, 0.6s, ease-in-out;transition: color, 0.6s, ease-in-out;}
 	
 	
 	/* -- 5.6) news-section  -- */
