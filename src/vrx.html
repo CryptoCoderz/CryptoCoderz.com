@@ -130,18 +130,19 @@ desired block time... to learn more click the "Read Bluepaper" button below.</p>
 		<code>
 <br />Terminal Velocity RateX [VRX]- Altcoin Difficulty Retarget System
 <br />Written by Jonathan Dan Zaretsky - cryptocoderz@gmail.com
+<br />Revision 2
 <br />
 <br />
 <br />Index
 <br />1. Introduction
 <br />2. Technical Aspects
-<br />3. Future Intentions
+<br />3. Improvements
 <br />4. Conclusion
 <br />
 <br />
 <br />
 <br />1. Introduction
-<br />VRX or Terminal Velocity RateX is an altcoin difficulty retarget system that, utilizing a several block depth scan, quickly <br />adapts the implemented blockchain/altcoin's mining or minting difficulty levels to ensure a narrow window around the <br />desired block time. This of course allowing for some inconsistencies in block spacing time due to significant increases or <br />decreases in hashrate or staking depending on whether the blockchain is Proof-Of-Work based or Proof-Of-Stake.
+<br />VRX or Terminal Velocity RateX is an altcoin difficulty retarget system that, utilizing a several block depth scan, quickly <br />adapts the implemented blockchain/altcoin's mining or minting difficulty levels to ensure a narrow window around the <br />desired block time. This of course allowing for some inconsistencies in block spacing time due to significant increases or <br />decreases in hashrate or staking depending on whether the blockchain is Proof-Of-Work, Proof-Of-Stake or a Hybrid based blockchain.
 <br />
 <br />
 <br />
@@ -151,17 +152,14 @@ desired block time... to learn more click the "Read Bluepaper" button below.</p>
 <br />
 <br />
 <br />
-<br />3. Future Intentions
-<br />While already being currently a nice alternative to the typical difficulty adjustment systems future changes and updates <br />are planned for later releases such as:
-<br />- Proof-Of-Work difficulty skew for hybrid PoW/PoS blockchain systems
-<br />- Code cleanup and general revisions
-<br />- Create seperated PoW and PoS reference implementations
-<br />... among other updates not currently thought of or mentioned.
+<br />3. Improvements
+<br />Over the course of the past year VRX has undergone some significant evolution, now featuring advanced functions such as Hybrid (PoW/PoS) Swing <br /> which skews the difficulty towards whichever
+concensus algorithm is being found less. <br />This is rated on a curve depending on severity of elapsed spacing since the other type of consensus algorithm has been able to submit a valid block <br />to the network. By having <br />this feature constricted with its curve values allows for a practically perfect 50/50 shuffle of<br /> block types between PoW and PoS with hybrid systems. Additionally by excluding this feature and constricting the window<br /> parameters more tightly a pure PoW or PoS implementation is also acheived quite effectively<br /> which has been demonstrated on several different blockchains currently in depoyment that the CryptoCoderz team has either developed or assisted with.
 <br />
 <br />
 <br />
 <br />4. Conclusion
-<br />Overall this document's intention is provide a general understanding of what VRX is and what it does. The use of the VRX <br />system is still not widely tested or used and currently can only be found in Espers [ESP] and INSaNE [INSANE] blockchain <br />projects as of the writing of the docmentation. This VRX system will continue to evolve to become more robust and overall a <br />effective solution to the blockchain difficulty retarget problem.
+<br />Overall this document's intention is provide a general understanding of what VRX is and what it does. The use of the VRX <br />system is still minimally tested and used and which currently can only be found in Espers [ESP], INSaNE [INSANE], Nucleon [NEON], Rubix [RBX], Endox [EDX] and Invoice-Coin [IVC] blockchain <br />projects as of the writing of the docmentation. This VRX system will continue to evolve to become more robust and overall a <br />effective solution to the blockchain difficulty retarget problem.
 </code>
         </div>
 		</div>
@@ -198,7 +196,7 @@ desired block time... to learn more click the "Read Bluepaper" button below.</p>
 			</div>
 			
 			<!-- copyright text -->
-			<p class="font-reg">© 2015-2017 Cryptocoderz</p>
+			<p class="font-reg">© 2015-2019 Cryptocoderz</p>
 			
 			<!-- scroll to top -->
 			<div id="scroll-top">
